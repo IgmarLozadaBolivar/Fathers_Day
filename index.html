@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father's Day</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icons/love_dad_32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <script defer src="https://app.embed.im/snow.js"></script>
+</head>
+
+<body>
+
+    <!-- Seccion 1: Inicio -->
+    <section id="seccion1">
+
+        <!-- Navbar & DropDown -->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Father's Day</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#yulimellys">Yulimellys</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nelson">Nelson</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#igmarsito">Igmarsito</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- Video de Fondo -->
+        <div id="videoContenedor">
+            <video id="videoFondo" autoplay loop muted></video>
+            <div id="contenido">
+                <h1>Inicio</h1>
+                <p>
+                    Father's Day! <br>
+                    El Día del Padre es una celebración o un homenaje dedicado a los padres.<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Salto de linea en la seccion 2 -->
+    <div id="yulimellys" class="logo-seccion">
+        <h1>Yulimellys</h1>
+    </div>
+
+
+    <section id="seccion2">
+        <div class="card-section">
+            <div class="card-row">
+                <div class="card">
+                    <img src="image/father_1.jpeg" alt="Imagen 1" onclick="expandImage(this)">
+                    <h3>Frase 1</h3>
+                    <p>
+                        Un hermano es un consuelo,
+                        un amigo es un tesoro,
+                        un padre es ambos.
+                        <br><br>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/father_2.jpeg" alt="Imagen 2" onclick="expandImage(this)">
+                    <h3>Frase 2</h3>
+                    <p>
+                        No importan las peleas que
+                        tengamos, tu eres quien
+                        esta siempre a mi lado cuando
+                        lo necesito.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/father_3.jpeg" alt="Imagen 3" onclick="expandImage(this)">
+                    <h3>Frase 3</h3>
+                    <p>
+                        Un buen padre vale más
+                        que una escuela con cien
+                        maestros.
+                        <br><br>
+                    </p>
+                </div>
+                <!-- Agrega mas tarjetas aqui segun sea necesario -->
+            </div>
+
+            <div class="card-row">
+                <div class="card">
+                    <img src="image/father_4.jpeg" alt="Imagen 4" onclick="expandImage(this)">
+                    <h3>Frase 4</h3>
+                    <p>
+                        El mejor legado de un
+                        padre a sus hijos es un
+                        poco de su tiempo cada
+                        dia.
+                        <br><br>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/father_5.jpeg" alt="Imagen 5" onclick="expandImage(this)">
+                    <h3>Frase 5</h3>
+                    <p>
+                        Cualquier hombre puede ser
+                        padre, solo alguien especial
+                        puede ser un
+                        papa.
+                        <br><br>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/father_6.jpeg" alt="Imagen 6" onclick="expandImage(this)">
+                    <h3>Frase 6</h3>
+                    <p>
+                        Ser padre es como tener
+                        dos corazones y comprender
+                        que el mas importante de
+                        ellos esta fuera de tu
+                        cuerpo.
+                    </p>
+                </div>
+                <!-- Agrega mas tarjetas aqui segun sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Salto de linea en la seccion 2 -->
+    <div id="nelson" class="logo-seccion">
+        <h1>Nelson</h1>
+    </div>
+
+    <section id="seccion3">
+        <div class="giftcontainer">
+            <div class="gift">
+                <input type="checkbox" id="click">
+                <label for="click" class="click"
+                    onclick="showAlertAfterTransition('¡Gracias por ser mi ejemplo de amor incondicional, eres el ejemplo perfecto de lo que significa ser un padre amoroso, te admiro cada día más!')"></label>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Salto de linea en la seccion 2 -->
+    <div id="igmarsito" class="logo-seccion">
+        <h1>Igmarsito</h1>
+    </div>
+
+    <section id="seccion4">
+        <div class="content-wrapper">
+            <div class="content-desc">
+                <h1>Father's Day</h1>
+                <p class="p">
+                    En cada paso de mi vida, tu has sido mi <span>guia</span>
+                    y mi <span>ejemplo</span> a seguir. Tu amor
+                    incondicional, tu <span>apoyo</span> constante y tu
+                    sabiduria han moldeado mi camino.
+                    Gracias por ser mi <span>padre</span>, mi <span>amigo</span> y mi <span>heroe</span>.
+                    Hoy celebramos todo lo que representas en
+                    nuestras vidas. ¡<span>Te quiero mucho</span>!.
+                </p>
+                <audio id="reproductor" src="music/Feliz _Dia_Padre.mp3">
+                </audio>
+                <button class="volumen" id="btn2">Listen Now</button><br><br>
+                <input type="range" min="0" max="1" value="0.5" step="0.1" id="mislider">
+                <span id="valor"></span>
+            </div>
+            <div class="rakuto"></div>
+        </div>
+    </section>
+    <!-- <button id="scrollButton" onclick="scrollToTop()">Subir</button> -->
+
+    <div class="footer">
+        <p>Copyright &copy; All Right Reserved | Designed <span class="span">By Family</span> 2023
+        </p>
+    </div>
+
+    <!-- Script Principal -->
+    <script src="script.js"></script>
+
+    <!-- Script Especiales -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
